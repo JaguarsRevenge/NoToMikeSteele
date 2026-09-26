@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Mike Steele's donors, tax votes and short-term-rental ties, set against Maggie Adams, for 12th District House Position 2 voters.">
+<meta property="og:title" content="The Steele Record">
+<meta property="og:description" content="Ten years in Olympia. Whose side? Know the record before you vote Nov 3.">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Steele Record</title>
+<style>
+@font-face{font-family:"Big Shoulders Display";font-style:normal;font-weight:600 800;font-display:swap;src:url(assets/fonts/big-shoulders-display-latin.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400 600;font-display:swap;src:url(assets/fonts/source-serif-4-latin.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/ibm-plex-mono-400-latin.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/ibm-plex-mono-600-latin.woff2) format("woff2")}
+</style>
+<style>
+:root{
+  --ground:#F3F6F5;
+  --paper:#FFFFFF;
+  --ink:#10232E;
+  --ink-2:#3C5260;
+  --muted:#6A7C86;
+  --rule:#D5DFE0;
+  --lake:#0B6F7C;
+  --lake-soft:#DDEFF0;
+  --flag:#C0501F;
+  --flag-soft:#FBE9DF;
+  --c-in:#0B8C7C;
+  --c-metro:#D0582A;
+  --c-oos:#3B5BB5;
+  --c-other:#A3AEB3;
+  --bar:#3C5260;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0C171E;--paper:#122029;--ink:#E6EEF0;--ink-2:#B3C3CA;--muted:#8499A3;--rule:#26394A;
+    --lake:#4FC0C8;--lake-soft:#133239;--flag:#EE8453;--flag-soft:#33211A;
+    --c-in:#23A08F;--c-metro:#DE6A3A;--c-oos:#5F7FD0;--c-other:#5C6B73;--bar:#8FA7B2;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0C171E;--paper:#122029;--ink:#E6EEF0;--ink-2:#B3C3CA;--muted:#8499A3;--rule:#26394A;
+  --lake:#4FC0C8;--lake-soft:#133239;--flag:#EE8453;--flag-soft:#33211A;
+  --c-in:#23A08F;--c-metro:#DE6A3A;--c-oos:#5F7FD0;--c-other:#5C6B73;--bar:#8FA7B2;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:980px;margin:0 auto}
+a{color:var(--lake);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--lake);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.02;margin:0;letter-spacing:.005em}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+p{margin:0;max-width:65ch}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* masthead */
+.mast{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px;border-bottom:2px solid var(--ink)}
+.mast span{font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:40px;padding-block:44px 40px;align-items:end}
+.hero h1{font-size:clamp(52px,9vw,104px);font-weight:800;text-transform:uppercase}
+.hero h1 em{font-style:normal;color:var(--flag)}
+.hero .lede{font-size:20px;color:var(--ink-2);margin-top:20px}
+.docket{background:var(--paper);border:1px solid var(--rule);padding:20px 22px;display:grid;gap:12px}
+.docket div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px dashed var(--rule);padding-bottom:10px}
+.docket div:last-child{border-bottom:0;padding-bottom:0}
+.docket dt{color:var(--muted);font-size:15px}
+.docket dd{margin:0;font-family:var(--mono);font-size:15px;text-align:right}
+
+/* sections */
+section{padding-block:48px;border-top:1px solid var(--rule)}
+.sec-head{display:grid;grid-template-columns:200px 1fr;gap:32px;margin-bottom:28px}
+.sec-head h2{font-size:clamp(34px,5vw,54px);font-weight:800;text-transform:uppercase}
+.sec-head .eyebrow{padding-top:10px}
+.cols{display:grid;grid-template-columns:200px 1fr;gap:32px}
+.cols > .body{display:grid;gap:18px}
+
+/* receipt-style figures */
+.receipt{background:var(--paper);border:1px solid var(--rule);padding:24px;display:grid;gap:22px}
+.bigline{display:flex;flex-wrap:wrap;gap:28px}
+.bigline .fig{display:grid;gap:2px}
+.bigline .fig b{font-family:var(--display);font-size:56px;font-weight:800;line-height:1}
+.bigline .fig span{font-size:15px;color:var(--ink-2);max-width:22ch}
+.fig.flag b{color:var(--flag)}
+.fig.lake b{color:var(--lake)}
+
+/* stacked bar */
+.stack{display:flex;height:40px;gap:2px;border-radius:4px;overflow:hidden}
+.stack div{height:100%;position:relative;cursor:default}
+.stack div:hover{filter:brightness(1.08)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:15px}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.legend b{font-family:var(--mono);font-weight:600}
+
+/* cycle bars */
+.cycles{display:grid;gap:8px}
+.cyc{display:grid;grid-template-columns:56px 1fr 92px;gap:12px;align-items:center;font-size:15px}
+.cyc .track{height:18px}
+.cyc .b{height:100%;background:var(--bar);border-radius:0 4px 4px 0}
+.cyc.now .b{background:var(--flag)}
+.cyc .v{text-align:right}
+
+.donors{display:flex;flex-wrap:wrap;gap:8px}
+.donors span{font-family:var(--mono);font-size:13px;padding:5px 9px;border:1px solid var(--rule);background:var(--ground);border-radius:3px}
+.donors span.hl{border-color:var(--flag);color:var(--flag);background:var(--flag-soft)}
+
+.note{font-size:15px;color:var(--muted)}
+.callout{border-left:4px solid var(--flag);background:var(--flag-soft);padding:16px 20px;font-size:17px}
+
+/* votes */
+.votes{display:grid;gap:0;background:var(--paper);border:1px solid var(--rule)}
+.vote{display:grid;grid-template-columns:120px 1fr 90px;gap:20px;padding:18px 22px;border-bottom:1px solid var(--rule);align-items:start}
+.vote:last-child{border-bottom:0}
+.vote .id{font-family:var(--mono);font-size:14px;color:var(--muted);padding-top:3px}
+.vote h3{font-family:var(--body);font-size:19px;font-weight:600;line-height:1.35;margin-bottom:4px}
+.vote p{font-size:16px;color:var(--ink-2)}
+.pill{font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.08em;padding:4px 8px;border-radius:3px;text-align:center;justify-self:end;white-space:nowrap}
+.pill.no{background:var(--flag-soft);color:var(--flag);border:1px solid var(--flag)}
+.pill.yes{background:var(--lake-soft);color:var(--lake);border:1px solid var(--lake)}
+
+/* history table */
+.tbl{overflow-x:auto;background:var(--paper);border:1px solid var(--rule)}
+table{border-collapse:collapse;width:100%;font-size:16px;min-width:520px}
+th,td{padding:11px 16px;text-align:left;border-bottom:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+tr.dem td{background:var(--lake-soft)}
+tr:last-child td{border-bottom:0}
+
+/* contrast */
+.versus{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);background:var(--paper)}
+.versus > div{padding:22px 24px;display:grid;gap:14px;align-content:start}
+.versus > div + div{border-left:1px solid var(--rule)}
+.versus h3{font-size:34px;font-weight:800;text-transform:uppercase}
+.versus .who{font-size:15px;color:var(--ink-2)}
+.versus ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:16.5px}
+.versus .adams h3{color:var(--lake)}
+.rowlab{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+.cta{background:var(--ink);color:var(--ground);padding:40px 32px;display:grid;gap:14px;margin-top:8px}
+.cta h2{font-size:clamp(40px,7vw,72px);font-weight:800;text-transform:uppercase;color:var(--ground)}
+.cta p{color:var(--ground);opacity:.85;font-size:19px}
+.cta .date{font-family:var(--mono);font-size:14px;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+
+.sources{font-size:14.5px;color:var(--ink-2)}
+.sources ol{padding-left:20px;display:grid;gap:6px;margin:12px 0 0}
+footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-size:14px;color:var(--muted);display:grid;gap:8px}
+.disclosure{font-family:var(--mono);font-size:13px;color:var(--ink-2);border:1px solid var(--rule);padding:10px 12px}
+
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--ground);font-family:var(--mono);font-size:13px;padding:6px 9px;border-radius:3px;z-index:5}
+
+@media (max-width:760px){
+  body{font-size:17px}
+  .hero{grid-template-columns:1fr;gap:28px;padding-block:32px}
+  .sec-head,.cols{grid-template-columns:1fr;gap:10px}
+  .versus{grid-template-columns:1fr}
+  .versus > div + div{border-left:0;border-top:1px solid var(--rule)}
+  .vote{grid-template-columns:1fr auto;gap:6px 14px}
+  .vote .id{grid-column:1/-1}
+  .bigline .fig b{font-size:46px}
+  .cta{padding:30px 22px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stack div,.cyc .b{transition:filter .15s}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <span>12th Legislative District · House Position 2</span>
+    <span>General Election · Nov 3, 2026</span>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Know the record before you vote</p>
+      <h1>Ten years in Olympia.<br><em>Whose side?</em></h1>
+      <p class="lede">Mike Steele is a familiar name in Chelan County. He grew up here, and he runs the Lake Chelan Chamber of Commerce. But his campaign money, his votes on taxes, and his ties to the short-term-rental industry tell a different story from the hometown one.</p>
+    </div>
+    <dl class="docket">
+      <div><dt>Candidate</dt><dd>Mike Steele (R)</dd></div>
+      <div><dt>In office since</dt><dd>Jan 2017 · 5 terms</dd></div>
+      <div><dt>Seeking</dt><dd>6th term</dd></div>
+      <div><dt>Raised, 2026</dt><dd>$134,469</dd></div>
+      <div><dt>Career fundraising</dt><dd>$548,095</dd></div>
+      <div><dt>Last faced a Democrat</dt><dd>2018</dd></div>
+    </dl>
+  </div>
+
+  <!-- MONEY -->
+  <section id="money">
+    <div class="sec-head">
+      <p class="eyebrow">1 · The money</p>
+      <h2>Paid for by Seattle and Olympia</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Steele represents Chelan County and the Cascade foothill towns. Most of his 2026 campaign money comes from somewhere else. His biggest source city is Seattle. Olympia is second. The city of Chelan, his hometown, gave $4,051.</p>
+
+        <div class="receipt" aria-label="Where Mike Steele's 2026 contributions come from">
+          <div class="bigline">
+            <div class="fig flag"><b class="num">22%</b><span>of his money comes from cities in the district</span></div>
+            <div class="fig flag"><b class="num">60%</b><span>comes from PACs, businesses and the House GOP caucus</span></div>
+            <div class="fig"><b class="num">29%</b><span>comes from individual donors</span></div>
+          </div>
+
+          <div>
+            <p class="rowlab" style="margin-bottom:10px">2026 contributions by donor location · $134,469</p>
+            <div class="stack" role="img" aria-label="In district 22 percent, Seattle and Olympia metro 34 percent, out of state 17 percent, elsewhere in Washington 27 percent">
+              <div style="width:22%;background:var(--c-in)" data-tip="In the district · $29,551 · 22%"></div>
+              <div style="width:34%;background:var(--c-metro)" data-tip="Seattle / Olympia metro · $45,875 · 34%"></div>
+              <div style="width:17%;background:var(--c-oos)" data-tip="Out of state · $22,448 · 17%"></div>
+              <div style="width:27%;background:var(--c-other)" data-tip="Elsewhere in Washington · $36,595 · 27%"></div>
+            </div>
+          </div>
+          <div class="legend">
+            <span><i style="background:var(--c-in)"></i>In the district <b>22%</b></span>
+            <span><i style="background:var(--c-metro)"></i>Seattle / Olympia <b>34%</b></span>
+            <span><i style="background:var(--c-oos)"></i>Out of state <b>17%</b></span>
+            <span><i style="background:var(--c-other)"></i>Elsewhere in WA <b>27%</b></span>
+          </div>
+
+          <div>
+            <p class="rowlab" style="margin-bottom:10px">Top cities, 2026</p>
+            <div class="cycles">
+              <div class="cyc now"><span>Seattle</span><div class="track"><div class="b" style="width:100%" data-tip="Seattle · $18,025"></div></div><span class="v num">$18,025</span></div>
+              <div class="cyc now"><span>Olympia</span><div class="track"><div class="b" style="width:76.8%" data-tip="Olympia · $13,850"></div></div><span class="v num">$13,850</span></div>
+              <div class="cyc"><span>Chelan</span><div class="track"><div class="b" style="width:22.5%" data-tip="Chelan · $4,051"></div></div><span class="v num">$4,051</span></div>
+            </div>
+          </div>
+        </div>
+
+        <p>The donor list reads like a lobby directory. Most of these gave the $2,400 legal maximum:</p>
+        <div class="donors">
+          <span>Boeing PAC</span><span>Amazon</span><span class="hl">Airbnb</span><span>AGC of WA BUILD PAC</span><span>Regence</span><span>DaVita</span><span>USAA</span><span>Puget Sound Energy</span><span>ABC PAC WA</span><span>WA Aggregates &amp; Concrete PAC</span><span>Hospitals for a Healthy Future PAC</span><span>House Republican Organizing Cmte ($5,000)</span>
+        </div>
+
+        <div>
+          <p class="rowlab" style="margin-bottom:10px">Steele's fundraising by election cycle</p>
+          <div class="cycles" role="img" aria-label="Fundraising by cycle: 2016 $33,847; 2018 $47,700; 2020 $53,975; 2022 $89,579; 2024 $188,525; 2026 $134,469 so far">
+            <div class="cyc"><span class="num">2016</span><div class="track"><div class="b" style="width:18%" data-tip="2016 · $33,847"></div></div><span class="v num">$33,847</span></div>
+            <div class="cyc"><span class="num">2018</span><div class="track"><div class="b" style="width:25.3%" data-tip="2018 · $47,700"></div></div><span class="v num">$47,700</span></div>
+            <div class="cyc"><span class="num">2020</span><div class="track"><div class="b" style="width:28.6%" data-tip="2020 · $53,975"></div></div><span class="v num">$53,975</span></div>
+            <div class="cyc"><span class="num">2022</span><div class="track"><div class="b" style="width:47.5%" data-tip="2022 · $89,579"></div></div><span class="v num">$89,579</span></div>
+            <div class="cyc"><span class="num">2024</span><div class="track"><div class="b" style="width:100%" data-tip="2024 · $188,525"></div></div><span class="v num">$188,525</span></div>
+            <div class="cyc now"><span class="num">2026</span><div class="track"><div class="b" style="width:71.3%" data-tip="2026 (to Sept 10) · $134,469"></div></div><span class="v num">$134,469</span></div>
+          </div>
+          <p class="note" style="margin-top:8px">2026 is through September 10 and still growing. Source: WA Public Disclosure Commission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOUSING -->
+  <section id="housing">
+    <div class="sec-head">
+      <p class="eyebrow">2 · Housing</p>
+      <h2>The Chamber, the rentals, and your rent</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Housing cost is the top concern for families in the Chelan valley. Short-term vacation rentals take homes off the long-term market, and Chelan County has spent years fighting over how to limit them.</p>
+        <p>Steele has been Executive Director of the Lake Chelan Chamber of Commerce for more than 20 years, including all ten of his years in the Legislature. The Chamber is one of the groups that lobbied Chelan County on its short-term-rental rules. Chambers in the county are funded largely through lodging tax.</p>
+        <div class="callout">This cycle, Steele also took <strong>$2,400 from Airbnb</strong>, the maximum allowed.</div>
+        <p>Holding a job outside the Legislature is legal and normal in Washington, and Steele discloses it. Nobody has accused him of breaking any rule. But when you ask whose interests he weighs on housing, it is fair to know who pays him and who funds his campaign.</p>
+        <p><strong>Maggie Adams supports affordable housing with limits on short-term rentals.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAXES -->
+  <section id="taxes">
+    <div class="sec-head">
+      <p class="eyebrow">3 · Taxes</p>
+      <h2>Who he protects when the bill comes</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Washington has one of the most upside-down tax systems in the country. Working families pay a larger share of their income in sales and property taxes than the wealthiest households do. On every chance to change that, Steele has sided with the top.</p>
+        <div class="votes">
+          <div class="vote">
+            <span class="id">SB 6346 · 2026</span>
+            <div><h3>Income tax on the highest earners ("millionaires' tax")</h3><p>Voted against it after a 24-hour floor debate and called it "the wrong direction."</p></div>
+            <span class="pill no">VOTED NO</span>
+          </div>
+          <div class="vote">
+            <span class="id">I-2109 · 2024</span>
+            <div><h3>Repeal the capital gains tax on large investment profits</h3><p>Steele supported repeal. Washington voters rejected it.</p></div>
+            <span class="pill no">BACKED REPEAL</span>
+          </div>
+          <div class="vote">
+            <span class="id">I-2117 · 2024</span>
+            <div><h3>Repeal the Climate Commitment Act (cap-and-invest)</h3><p>Steele supported repeal. Washington voters rejected it.</p></div>
+            <span class="pill no">BACKED REPEAL</span>
+          </div>
+        </div>
+        <p><strong>Maggie Adams supports a millionaires' tax.</strong> She is running on fully funded schools, better teacher pay, and health care access.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCOUNTABILITY -->
+  <section id="history">
+    <div class="sec-head">
+      <p class="eyebrow">4 · Accountability</p>
+      <h2>Eight years without a real choice</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Steele's big winning percentages look impressive until you check who he ran against. Since 2018 he has been unopposed or faced only other Republicans. This November is the first time in eight years that voters get a Democrat on the ballot against him.</p>
+        <div class="tbl">
+          <table>
+            <thead><tr><th>Year</th><th>Opponent</th><th>Steele</th><th>Kind of race</th></tr></thead>
+            <tbody>
+              <tr><td class="n">2016</td><td>Jerry Paine (R)</td><td class="n">60%</td><td>Republican vs. Republican</td></tr>
+              <tr class="dem"><td class="n">2018</td><td>Valerie Sarratt (D)</td><td class="n">63.8%</td><td>Last race against a Democrat</td></tr>
+              <tr><td class="n">2020</td><td>None</td><td class="n">96.2%</td><td>Unopposed</td></tr>
+              <tr><td class="n">2022</td><td>Robert Amenn (R)</td><td class="n">78.4%</td><td>Republican vs. Republican</td></tr>
+              <tr><td class="n">2024</td><td>Daniel Scott (R)</td><td class="n">61.7%</td><td>Republican vs. Republican</td></tr>
+              <tr class="dem"><td class="n">2026</td><td>Maggie Adams (D)</td><td class="n">—</td><td>Your choice, Nov 3</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The district has also changed. The 2024 court-ordered map moved Douglas, Grant and Okanogan counties out of the 12th and added Monroe, Sultan, Gold Bar, North Bend and Snoqualmie. In the August primary the Position 1 race was decided by 174 votes out of more than 44,000. This district is competitive now. It deserves a representative who has to earn it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRAST -->
+  <section id="choice">
+    <div class="sec-head">
+      <p class="eyebrow">5 · The choice</p>
+      <h2>Side by side</h2>
+    </div>
+    <div class="versus">
+      <div>
+        <p class="rowlab">Incumbent</p>
+        <h3>Mike Steele (R)</h3>
+        <p class="who">Chelan · Executive Director, Lake Chelan Chamber of Commerce · former White House political staffer under George W. Bush</p>
+        <ul>
+          <li>60% of 2026 money from PACs, businesses and the caucus</li>
+          <li>Top donor city: Seattle</li>
+          <li>Voted no on the millionaires' tax</li>
+          <li>Backed repealing the capital gains tax</li>
+          <li>Took Airbnb money while running the Chamber</li>
+        </ul>
+      </div>
+      <div class="adams">
+        <p class="rowlab">Challenger</p>
+        <h3>Maggie Adams (D)</h3>
+        <p class="who">Snoqualmie · stagehand, costume designer and actor · business representative for IATSE, the stage workers' union</p>
+        <ul>
+          <li>Health care people can reach and afford</li>
+          <li>Fully funded schools and better teacher pay</li>
+          <li>Affordable housing, with limits on short-term rentals</li>
+          <li>A millionaires' tax</li>
+          <li>Protecting our water, including opposing fracking</li>
+          <li>Workers' rights and community-engaged policing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <p class="date">Ballots due Tuesday, November 3, 2026 · 8 p.m.</p>
+    <h2>Vote Maggie Adams</h2>
+    <p>State House, 12th District, Position 2. Check your registration and track your ballot at VoteWA.gov.</p>
+  </div>
+
+  <section class="sources" id="sources">
+    <p class="eyebrow">Sources</p>
+    <ol>
+      <li>Campaign contributions: WA Public Disclosure Commission, <a href="https://data.wa.gov/resource/kv7h-kjye.json">data.wa.gov dataset kv7h-kjye</a>, retrieved Sept 10, 2026. Location shares group donors by city.</li>
+      <li>SB 6346 vote and quote: <a href="https://mikesteele.houserepublicans.wa.gov/2026/03/10/rep-mike-steele-issues-statement-following-passage-of-income-tax-bill-after-lengthy-late-night-debate/">Rep. Steele's own statement, March 10, 2026</a>.</li>
+      <li>Biography and Chamber role: <a href="https://www.votemikesteele.com/about/">votemikesteele.com</a>, <a href="https://mikesteele.houserepublicans.wa.gov/about/">House Republicans site</a>.</li>
+      <li>Short-term rentals: <a href="https://www.seattletimes.com/business/real-estate/vacation-hotspot-chelan-county-limits-short-term-rentals/">Seattle Times</a>; <a href="https://coalitionofchelancounty.org/short-term-rentals/short-term-rental-issues/">Residents Coalition of Chelan County</a>.</li>
+      <li>Election results: WA Secretary of State, <a href="https://results.vote.wa.gov/results/20181106/legislative-district-12-state-representative-pos-2_bycounty.html">2018</a>, <a href="https://results.vote.wa.gov/results/20201103/legislative-district-12-state-representative-pos-2_bycounty.html">2020</a>, <a href="https://results.vote.wa.gov/results/20221108/legislative-district-12-state-representative-pos-2_bycounty.html">2022</a>, <a href="https://results.vote.wa.gov/results/20241105/legislative-district-12-state-representative-pos-2_bycounty.html">2024</a>; certified Aug 4, 2026 primary.</li>
+      <li>Redistricting: <a href="https://www.cascadepbs.org/politics/2024/10/how-redistricting-changed-was-12th-legislative-district/">Cascade PBS</a>.</li>
+      <li>Maggie Adams: <a href="https://www.heraldnet.com/2026/08/04/steele-adams-lead-over-james-for-district-12-position-2-seat/">HeraldNet, Aug 4, 2026</a>.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <div class="disclosure">Paid for by <a href="https://indivisible.org/" target="_blank" rel="noopener">Confluence Indivisible</a>, Wenatchee and East Wenatchee, WA. No candidate authorized this ad.</div>
+    <p>This page is not affiliated with Mike Steele or the Washington House Republicans. Figures current as of September 26, 2026.</p>
+  </footer>
+</div>
+<div id="tip" hidden></div>
+<script>
+(function(){
+  var tip=document.getElementById('tip');
+  document.querySelectorAll('[data-tip]').forEach(function(el){
+    el.addEventListener('mousemove',function(e){
+      tip.textContent=el.getAttribute('data-tip');tip.hidden=false;
+      var x=Math.min(e.clientX+14,window.innerWidth-tip.offsetWidth-8);
+      tip.style.left=x+'px';tip.style.top=(e.clientY+16)+'px';
+    });
+    el.addEventListener('mouseleave',function(){tip.hidden=true;});
+  });
+})();
+</script>
+</body>
+</html>
