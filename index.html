@@ -113,6 +113,9 @@ section{padding-block:48px;border-top:1px solid var(--rule)}
 .donors span.hl{border-color:var(--flag);color:var(--flag);background:var(--flag-soft)}
 
 .note{font-size:15px;color:var(--muted)}
+.cite{font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:var(--lake);border:1px solid currentColor;border-radius:3px;padding:1px 5px;margin-left:4px;vertical-align:2px}
+.cite:hover{background:var(--lake-soft)}
+.cite::after{content:" \2197"}
 .callout{border-left:4px solid var(--flag);background:var(--flag-soft);padding:16px 20px;font-size:17px}
 
 /* votes */
@@ -184,14 +187,14 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
     <div>
       <p class="eyebrow">Know the record before you vote</p>
       <h1>Ten years in Olympia.<br><em>Whose side?</em></h1>
-      <p class="lede">Mike Steele is a familiar name in Chelan County. He grew up here, and he runs the Lake Chelan Chamber of Commerce. But his campaign money, his votes on taxes, and his ties to the short-term-rental industry tell a different story from the hometown one.</p>
+      <p class="lede">Mike Steele is a familiar name in Chelan County. He grew up here, and he runs the Lake Chelan Chamber of Commerce. But his campaign money, his votes on taxes and on abortion rights, and his ties to the short-term-rental industry tell a different story from the hometown one.</p>
     </div>
     <dl class="docket">
       <div><dt>Candidate</dt><dd>Mike Steele (R)</dd></div>
       <div><dt>In office since</dt><dd>Jan 2017 · 5 terms</dd></div>
       <div><dt>Seeking</dt><dd>6th term</dd></div>
-      <div><dt>Raised, 2026</dt><dd>$134,469</dd></div>
-      <div><dt>Career fundraising</dt><dd>$548,095</dd></div>
+      <div><dt>Raised, 2026</dt><dd>$143,419</dd></div>
+      <div><dt>Career fundraising</dt><dd>$557,045</dd></div>
       <div><dt>Last faced a Democrat</dt><dd>2018</dd></div>
     </dl>
   </div>
@@ -205,57 +208,58 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
     <div class="cols">
       <div></div>
       <div class="body">
-        <p>Steele represents Chelan County and the Cascade foothill towns. Most of his 2026 campaign money comes from somewhere else. His biggest source city is Seattle. Olympia is second. The city of Chelan, his hometown, gave $4,051.</p>
+        <p>Steele represents Chelan County and the Cascade foothill towns. Most of his 2026 campaign money comes from somewhere else. His biggest source city is Seattle. Olympia is second. The city of Chelan, his hometown, gave $4,051.<a class="cite" href="https://data.wa.gov/resource/kv7h-kjye.json?filer_id=STEEM%20%20816&amp;election_year=2026&amp;$limit=500" target="_blank" rel="noopener">PDC data</a></p>
 
         <div class="receipt" aria-label="Where Mike Steele's 2026 contributions come from">
           <div class="bigline">
             <div class="fig flag"><b class="num">22%</b><span>of his money comes from cities in the district</span></div>
-            <div class="fig flag"><b class="num">60%</b><span>comes from PACs, businesses and the House GOP caucus</span></div>
-            <div class="fig"><b class="num">29%</b><span>comes from individual donors</span></div>
+            <div class="fig flag"><b class="num">61%</b><span>comes from PACs, businesses and the House GOP caucus</span></div>
+            <div class="fig"><b class="num">28%</b><span>comes from individual donors</span></div>
           </div>
 
           <div>
-            <p class="rowlab" style="margin-bottom:10px">2026 contributions by donor location · $134,469</p>
-            <div class="stack" role="img" aria-label="In district 22 percent, Seattle and Olympia metro 34 percent, out of state 17 percent, elsewhere in Washington 27 percent">
-              <div style="width:22%;background:var(--c-in)" data-tip="In the district · $29,551 · 22%"></div>
-              <div style="width:34%;background:var(--c-metro)" data-tip="Seattle / Olympia metro · $45,875 · 34%"></div>
-              <div style="width:17%;background:var(--c-oos)" data-tip="Out of state · $22,448 · 17%"></div>
-              <div style="width:27%;background:var(--c-other)" data-tip="Elsewhere in Washington · $36,595 · 27%"></div>
+            <p class="rowlab" style="margin-bottom:10px">2026 contributions by donor location · $143,419</p>
+            <div class="stack" role="img" aria-label="In district 22 percent, Seattle to Olympia corridor 49 percent, out of state 16 percent, elsewhere in Washington or unitemized 13 percent">
+              <div style="width:21.8%;background:var(--c-in)" data-tip="In the district · $31,251 · 22%"></div>
+              <div style="width:49.5%;background:var(--c-metro)" data-tip="Seattle–Olympia corridor · $70,925 · 49%"></div>
+              <div style="width:15.6%;background:var(--c-oos)" data-tip="Out of state · $22,448 · 16%"></div>
+              <div style="width:13.1%;background:var(--c-other)" data-tip="Elsewhere in WA or unitemized · $18,795 · 13%"></div>
             </div>
           </div>
           <div class="legend">
             <span><i style="background:var(--c-in)"></i>In the district <b>22%</b></span>
-            <span><i style="background:var(--c-metro)"></i>Seattle / Olympia <b>34%</b></span>
-            <span><i style="background:var(--c-oos)"></i>Out of state <b>17%</b></span>
-            <span><i style="background:var(--c-other)"></i>Elsewhere in WA <b>27%</b></span>
+            <span><i style="background:var(--c-metro)"></i>Seattle–Olympia corridor <b>49%</b></span>
+            <span><i style="background:var(--c-oos)"></i>Out of state <b>16%</b></span>
+            <span><i style="background:var(--c-other)"></i>Elsewhere in WA / unitemized <b>13%</b></span>
           </div>
+          <p class="note">"Seattle–Olympia corridor" means cities in King, Snohomish, Pierce, Thurston and Kitsap counties that are outside the 12th District.</p>
 
           <div>
             <p class="rowlab" style="margin-bottom:10px">Top cities, 2026</p>
             <div class="cycles">
-              <div class="cyc now"><span>Seattle</span><div class="track"><div class="b" style="width:100%" data-tip="Seattle · $18,025"></div></div><span class="v num">$18,025</span></div>
-              <div class="cyc now"><span>Olympia</span><div class="track"><div class="b" style="width:76.8%" data-tip="Olympia · $13,850"></div></div><span class="v num">$13,850</span></div>
-              <div class="cyc"><span>Chelan</span><div class="track"><div class="b" style="width:22.5%" data-tip="Chelan · $4,051"></div></div><span class="v num">$4,051</span></div>
+              <div class="cyc now"><span>Seattle</span><div class="track"><div class="b" style="width:100%" data-tip="Seattle · $21,225"></div></div><span class="v num">$21,225</span></div>
+              <div class="cyc now"><span>Olympia</span><div class="track"><div class="b" style="width:76.6%" data-tip="Olympia · $16,250"></div></div><span class="v num">$16,250</span></div>
+              <div class="cyc"><span>Chelan</span><div class="track"><div class="b" style="width:19.1%" data-tip="Chelan · $4,051"></div></div><span class="v num">$4,051</span></div>
             </div>
           </div>
         </div>
 
-        <p>The donor list reads like a lobby directory. Most of these gave the $2,400 legal maximum:</p>
+        <p>The donor list reads like a lobby directory. Most of these gave the legal maximum:<a class="cite" href="https://data.wa.gov/resource/kv7h-kjye.json?filer_id=STEEM%20%20816&amp;election_year=2026&amp;$limit=500" target="_blank" rel="noopener">PDC data</a></p>
         <div class="donors">
-          <span>Boeing PAC</span><span>Amazon</span><span class="hl">Airbnb</span><span>AGC of WA BUILD PAC</span><span>Regence</span><span>DaVita</span><span>USAA</span><span>Puget Sound Energy</span><span>ABC PAC WA</span><span>WA Aggregates &amp; Concrete PAC</span><span>Hospitals for a Healthy Future PAC</span><span>House Republican Organizing Cmte ($5,000)</span>
+          <span>Boeing PAC</span><span>Amazon</span><span class="hl">Airbnb</span><span>AGC of WA BUILD PAC</span><span>Regence</span><span>DaVita</span><span>USAA</span><span>Puget Sound Energy</span><span class="hl">WA Multi-Family Housing Assn</span><span>WashBankPAC</span><span>ABC PAC WA</span><span>WA Aggregates &amp; Concrete PAC</span><span>Hospitals for a Healthy Future PAC</span><span>House Republican Organizing Cmte ($5,000)</span>
         </div>
 
         <div>
           <p class="rowlab" style="margin-bottom:10px">Steele's fundraising by election cycle</p>
-          <div class="cycles" role="img" aria-label="Fundraising by cycle: 2016 $33,847; 2018 $47,700; 2020 $53,975; 2022 $89,579; 2024 $188,525; 2026 $134,469 so far">
+          <div class="cycles" role="img" aria-label="Fundraising by cycle: 2016 $33,847; 2018 $47,700; 2020 $53,975; 2022 $89,579; 2024 $188,525; 2026 $143,419 so far">
             <div class="cyc"><span class="num">2016</span><div class="track"><div class="b" style="width:18%" data-tip="2016 · $33,847"></div></div><span class="v num">$33,847</span></div>
             <div class="cyc"><span class="num">2018</span><div class="track"><div class="b" style="width:25.3%" data-tip="2018 · $47,700"></div></div><span class="v num">$47,700</span></div>
             <div class="cyc"><span class="num">2020</span><div class="track"><div class="b" style="width:28.6%" data-tip="2020 · $53,975"></div></div><span class="v num">$53,975</span></div>
             <div class="cyc"><span class="num">2022</span><div class="track"><div class="b" style="width:47.5%" data-tip="2022 · $89,579"></div></div><span class="v num">$89,579</span></div>
             <div class="cyc"><span class="num">2024</span><div class="track"><div class="b" style="width:100%" data-tip="2024 · $188,525"></div></div><span class="v num">$188,525</span></div>
-            <div class="cyc now"><span class="num">2026</span><div class="track"><div class="b" style="width:71.3%" data-tip="2026 (to Sept 10) · $134,469"></div></div><span class="v num">$134,469</span></div>
+            <div class="cyc now"><span class="num">2026</span><div class="track"><div class="b" style="width:76.1%" data-tip="2026 (to Sept 21) · $143,419"></div></div><span class="v num">$143,419</span></div>
           </div>
-          <p class="note" style="margin-top:8px">2026 is through September 10 and still growing. Source: WA Public Disclosure Commission.</p>
+          <p class="note" style="margin-top:8px">Totals through PDC's September 21 update. 2026 is still growing. Source: WA Public Disclosure Commission.</p>
         </div>
       </div>
     </div>
@@ -270,9 +274,9 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
     <div class="cols">
       <div></div>
       <div class="body">
-        <p>Housing cost is the top concern for families in the Chelan valley. Short-term vacation rentals take homes off the long-term market, and Chelan County has spent years fighting over how to limit them.</p>
-        <p>Steele has been Executive Director of the Lake Chelan Chamber of Commerce for more than 20 years, including all ten of his years in the Legislature. The Chamber is one of the groups that lobbied Chelan County on its short-term-rental rules. Chambers in the county are funded largely through lodging tax.</p>
-        <div class="callout">This cycle, Steele also took <strong>$2,400 from Airbnb</strong>, the maximum allowed.</div>
+        <p>Housing cost is the top concern for families in the Chelan valley. Short-term vacation rentals take homes off the long-term market, and Chelan County has spent years fighting over how to limit them. The county adopted limits in 2021 and rewrote them in early 2025.<a class="cite" href="https://www.co.chelan.wa.us/news/article/bocc-to-pass-short-term-rental-code-updates-on-feb-11" target="_blank" rel="noopener">Chelan County</a></p>
+        <p>Steele has been Executive Director of the Lake Chelan Chamber of Commerce for more than 20 years, including all ten of his years in the Legislature.<a class="cite" href="https://www.votemikesteele.com/about/" target="_blank" rel="noopener">His bio</a> The Residents Coalition of Chelan County, a residents' group that fought to keep the county's 2021 rental limits, names the Lake Chelan Chamber among the groups that lobbied for the rewrite.<a class="cite" href="https://coalitionofchelancounty.org/short-term-rentals/short-term-rental-issues/" target="_blank" rel="noopener">Residents Coalition</a> The Chamber's contract with the City of Chelan pays it up to $750,000 a year, pegged to the city's lodging-tax collections, the tax on overnight stays.<a class="cite" href="https://allthingslakechelan.blog/2025/05/05/city-council-approves-new-contract-with-chamber-of-commerce/" target="_blank" rel="noopener">All Things Lake Chelan</a></p>
+        <div class="callout">This cycle Steele took <strong>$2,400 from Airbnb</strong>, the most it could give for the primary and general combined.<a class="cite" href="https://my.pdc.wa.gov/public/registrations/campaign-finance-report/110380924" target="_blank" rel="noopener">PDC report</a> On September 18 he took <strong>$1,200 from the Washington Multi-Family Housing Association</strong>, the trade group for apartment owners and managers.<a class="cite" href="https://my.pdc.wa.gov/public/registrations/campaign-finance-report/110389904" target="_blank" rel="noopener">PDC report</a></div>
         <p>Holding a job outside the Legislature is legal and normal in Washington, and Steele discloses it. Nobody has accused him of breaking any rule. But when you ask whose interests he weighs on housing, it is fair to know who pays him and who funds his campaign.</p>
         <p><strong>Maggie Adams supports affordable housing with limits on short-term rentals.</strong></p>
       </div>
@@ -288,25 +292,63 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
     <div class="cols">
       <div></div>
       <div class="body">
-        <p>Washington has one of the most upside-down tax systems in the country. Working families pay a larger share of their income in sales and property taxes than the wealthiest households do. On every chance to change that, Steele has sided with the top.</p>
+        <p>Washington has the second most upside-down tax system in the country. The poorest fifth of households pay 13.8% of their income in state and local taxes. The top 1% pay 4.1%.<a class="cite" href="https://itep.org/whopays/washington-who-pays-7th-edition/" target="_blank" rel="noopener">ITEP</a> On the Legislature's big votes to ask the wealthiest to pay more, Steele voted no.</p>
         <div class="votes">
           <div class="vote">
             <span class="id">SB 6346 · 2026</span>
-            <div><h3>Income tax on the highest earners ("millionaires' tax")</h3><p>Voted against it after a 24-hour floor debate and called it "the wrong direction."</p></div>
+            <div><h3>Income tax on the highest earners ("millionaires' tax")</h3><p>Voted no after a 24-hour floor debate and called it "the wrong direction."<a class="cite" href="https://legiscan.com/WA/rollcall/SB6346/id/1659315" target="_blank" rel="noopener">Roll call</a><a class="cite" href="https://mikesteele.houserepublicans.wa.gov/2026/03/10/rep-mike-steele-issues-statement-following-passage-of-income-tax-bill-after-lengthy-late-night-debate/" target="_blank" rel="noopener">His statement</a></p></div>
             <span class="pill no">VOTED NO</span>
           </div>
           <div class="vote">
-            <span class="id">I-2109 · 2024</span>
-            <div><h3>Repeal the capital gains tax on large investment profits</h3><p>Steele supported repeal. Washington voters rejected it.</p></div>
-            <span class="pill no">BACKED REPEAL</span>
+            <span class="id">SB 5096 · 2021</span>
+            <div><h3>Capital gains tax on large investment profits</h3><p>Voted no. It applies only to gains above $250,000 a year, and ITEP credits it with moving Washington off the very bottom of its fairness ranking. In 2024 Steele called it "essentially an income tax" and pushed for a hearing on the initiative to repeal it. Voters rejected the repeal.<a class="cite" href="https://legiscan.com/WA/rollcall/SB5096/id/1062147" target="_blank" rel="noopener">Roll call</a><a class="cite" href="http://mikesteele.houserepublicans.wa.gov/2024/01/25/rep-mike-steele-shares-legislative-highlights-and-initiatives/" target="_blank" rel="noopener">His statement</a></p></div>
+            <span class="pill no">VOTED NO</span>
           </div>
           <div class="vote">
-            <span class="id">I-2117 · 2024</span>
-            <div><h3>Repeal the Climate Commitment Act (cap-and-invest)</h3><p>Steele supported repeal. Washington voters rejected it.</p></div>
-            <span class="pill no">BACKED REPEAL</span>
+            <span class="id">SB 5126 · 2021</span>
+            <div><h3>Climate Commitment Act, which makes the largest polluters pay for their emissions</h3><p>Voted no. Voters later rejected a 2024 initiative to repeal it.<a class="cite" href="https://legiscan.com/WA/rollcall/SB5126/id/1061811" target="_blank" rel="noopener">Roll call</a><a class="cite" href="https://www.geekwire.com/2024/washington-state-voters-reject-initiatives-that-aimed-to-repeal-capital-gains-tax-and-climate-programs/" target="_blank" rel="noopener">2024 result</a></p></div>
+            <span class="pill no">VOTED NO</span>
           </div>
         </div>
-        <p><strong>Maggie Adams supports a millionaires' tax.</strong> She is running on fully funded schools, better teacher pay, and health care access.</p>
+        <p><strong>Maggie Adams supports a millionaires' tax and tax reform that makes large corporations pay their share.</strong> She wants that revenue to fund universal health care and child care, fully funded schools, and better teacher pay.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RIGHTS -->
+  <section id="rights">
+    <div class="sec-head">
+      <p class="eyebrow">4 · Your rights</p>
+      <h2>Four chances to protect your freedom to decide. Four no votes.</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Before and after the Supreme Court overturned Roe v. Wade in 2022, Washington passed laws to protect abortion access and the patients and doctors who rely on it. Steele voted against each of these bills on final passage. All four passed without him.</p>
+        <div class="votes">
+          <div class="vote">
+            <span class="id">HB 1851 · 2022</span>
+            <div><h3>Preserving access to abortion care</h3><p>Updated the state's abortion-rights law so more trained health care providers can offer care, and barred prosecuting people who help a patient get it.<a class="cite" href="https://legiscan.com/WA/rollcall/HB1851/id/1164110" target="_blank" rel="noopener">Roll call</a></p></div>
+            <span class="pill no">VOTED NO</span>
+          </div>
+          <div class="vote">
+            <span class="id">HB 1469 · 2023</span>
+            <div><h3>Protecting reproductive and gender-affirming health care</h3><p>Shields patients and doctors in Washington from other states' subpoenas and prosecutions.<a class="cite" href="https://legiscan.com/WA/rollcall/HB1469/id/1263502" target="_blank" rel="noopener">Roll call</a></p></div>
+            <span class="pill no">VOTED NO</span>
+          </div>
+          <div class="vote">
+            <span class="id">SB 5768 · 2023</span>
+            <div><h3>Protecting access to abortion medication</h3><p>Let the state stockpile mifepristone after a federal court threatened to pull it from the market.<a class="cite" href="https://legiscan.com/WA/rollcall/SB5768/id/1307015" target="_blank" rel="noopener">Roll call</a></p></div>
+            <span class="pill no">VOTED NO</span>
+          </div>
+          <div class="vote">
+            <span class="id">SB 5599 · 2023</span>
+            <div><h3>Supporting young people seeking protected health care</h3><p>Lets youth shelters notify the state, instead of parents, when a young person staying there is seeking reproductive or gender-affirming care.<a class="cite" href="https://legiscan.com/WA/rollcall/SB5599/id/1299645" target="_blank" rel="noopener">Roll call</a></p></div>
+            <span class="pill no">VOTED NO</span>
+          </div>
+        </div>
+        <p class="note">Each vote is the House final-passage roll call, as republished by LegiScan from the Legislature's official record.</p>
+        <p><strong>Maggie Adams supports reproductive freedom and equal rights for LGBTQ+ Washingtonians.</strong></p>
       </div>
     </div>
   </section>
@@ -314,7 +356,7 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
   <!-- ACCOUNTABILITY -->
   <section id="history">
     <div class="sec-head">
-      <p class="eyebrow">4 · Accountability</p>
+      <p class="eyebrow">5 · Accountability</p>
       <h2>Eight years without a real choice</h2>
     </div>
     <div class="cols">
@@ -342,7 +384,7 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
   <!-- CONTRAST -->
   <section id="choice">
     <div class="sec-head">
-      <p class="eyebrow">5 · The choice</p>
+      <p class="eyebrow">6 · The choice</p>
       <h2>Side by side</h2>
     </div>
     <div class="versus">
@@ -351,11 +393,12 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
         <h3>Mike Steele (R)</h3>
         <p class="who">Chelan · Executive Director, Lake Chelan Chamber of Commerce · former White House political staffer under George W. Bush</p>
         <ul>
-          <li>60% of 2026 money from PACs, businesses and the caucus</li>
+          <li>61% of 2026 money from PACs, businesses and the caucus</li>
           <li>Top donor city: Seattle</li>
           <li>Voted no on the millionaires' tax</li>
-          <li>Backed repealing the capital gains tax</li>
-          <li>Took Airbnb money while running the Chamber</li>
+          <li>Voted no on the capital gains tax</li>
+          <li>Voted no on four bills protecting abortion access</li>
+          <li>Took money from Airbnb and the apartment industry while running the Chamber</li>
         </ul>
       </div>
       <div class="adams">
@@ -363,10 +406,11 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
         <h3>Maggie Adams (D)</h3>
         <p class="who">Snoqualmie · stagehand, costume designer and actor · business representative for IATSE, the stage workers' union</p>
         <ul>
-          <li>Health care people can reach and afford</li>
+          <li>Universal health care and child care</li>
           <li>Fully funded schools and better teacher pay</li>
           <li>Affordable housing, with limits on short-term rentals</li>
-          <li>A millionaires' tax</li>
+          <li>A millionaires' tax, and corporations paying their share</li>
+          <li>Reproductive freedom and LGBTQ+ equality</li>
           <li>Protecting our water, including opposing fracking</li>
           <li>Workers' rights and community-engaged policing</li>
         </ul>
@@ -383,13 +427,15 @@ footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-siz
   <section class="sources" id="sources">
     <p class="eyebrow">Sources</p>
     <ol>
-      <li>Campaign contributions: WA Public Disclosure Commission, <a href="https://data.wa.gov/resource/kv7h-kjye.json">data.wa.gov dataset kv7h-kjye</a>, retrieved Sept 10, 2026. Location shares group donors by city.</li>
-      <li>SB 6346 vote and quote: <a href="https://mikesteele.houserepublicans.wa.gov/2026/03/10/rep-mike-steele-issues-statement-following-passage-of-income-tax-bill-after-lengthy-late-night-debate/">Rep. Steele's own statement, March 10, 2026</a>.</li>
+      <li>Campaign contributions: WA Public Disclosure Commission, <a href="https://data.wa.gov/resource/kv7h-kjye.json?filer_id=STEEM%20%20816&amp;election_year=2026&amp;$limit=500">Steele's 2026 contributions on data.wa.gov</a>, retrieved Sept 26, 2026 (PDC update of Sept 21). Location shares group donors by the city on each filing.</li>
+      <li>House votes: LegiScan roll calls, republished from the Washington Legislature's official record. Each vote on this page links to its roll call.</li>
+      <li>Steele's own words: <a href="https://mikesteele.houserepublicans.wa.gov/2026/03/10/rep-mike-steele-issues-statement-following-passage-of-income-tax-bill-after-lengthy-late-night-debate/">statement on SB 6346, March 10, 2026</a>; <a href="http://mikesteele.houserepublicans.wa.gov/2024/01/25/rep-mike-steele-shares-legislative-highlights-and-initiatives/">statement on the 2024 initiatives, Jan 25, 2024</a>.</li>
+      <li>Tax fairness: Institute on Taxation and Economic Policy, <a href="https://itep.org/whopays/washington-who-pays-7th-edition/">Who Pays? 7th edition, Washington</a>.</li>
       <li>Biography and Chamber role: <a href="https://www.votemikesteele.com/about/">votemikesteele.com</a>, <a href="https://mikesteele.houserepublicans.wa.gov/about/">House Republicans site</a>.</li>
-      <li>Short-term rentals: <a href="https://www.seattletimes.com/business/real-estate/vacation-hotspot-chelan-county-limits-short-term-rentals/">Seattle Times</a>; <a href="https://coalitionofchelancounty.org/short-term-rentals/short-term-rental-issues/">Residents Coalition of Chelan County</a>.</li>
-      <li>Election results: WA Secretary of State, <a href="https://results.vote.wa.gov/results/20181106/legislative-district-12-state-representative-pos-2_bycounty.html">2018</a>, <a href="https://results.vote.wa.gov/results/20201103/legislative-district-12-state-representative-pos-2_bycounty.html">2020</a>, <a href="https://results.vote.wa.gov/results/20221108/legislative-district-12-state-representative-pos-2_bycounty.html">2022</a>, <a href="https://results.vote.wa.gov/results/20241105/legislative-district-12-state-representative-pos-2_bycounty.html">2024</a>; certified Aug 4, 2026 primary.</li>
+      <li>Short-term rentals: <a href="https://www.co.chelan.wa.us/news/article/bocc-to-pass-short-term-rental-code-updates-on-feb-11">Chelan County</a>; <a href="https://coalitionofchelancounty.org/short-term-rentals/short-term-rental-issues/">Residents Coalition of Chelan County</a> (an advocacy group); <a href="https://allthingslakechelan.blog/2025/05/05/city-council-approves-new-contract-with-chamber-of-commerce/">All Things Lake Chelan, May 5, 2025</a>.</li>
+      <li>Election results: WA Secretary of State, <a href="https://results.vote.wa.gov/results/20181106/legislative-district-12-state-representative-pos-2_bycounty.html">2018</a>, <a href="https://results.vote.wa.gov/results/20201103/legislative-district-12-state-representative-pos-2_bycounty.html">2020</a>, <a href="https://results.vote.wa.gov/results/20221108/legislative-district-12-state-representative-pos-2_bycounty.html">2022</a>, <a href="https://results.vote.wa.gov/results/20241105/legislative-district-12-state-representative-pos-2_bycounty.html">2024</a>; certified Aug 4, 2026 primary. 2024 initiative results: <a href="https://www.geekwire.com/2024/washington-state-voters-reject-initiatives-that-aimed-to-repeal-capital-gains-tax-and-climate-programs/">GeekWire</a>.</li>
       <li>Redistricting: <a href="https://www.cascadepbs.org/politics/2024/10/how-redistricting-changed-was-12th-legislative-district/">Cascade PBS</a>.</li>
-      <li>Maggie Adams: <a href="https://www.heraldnet.com/2026/08/04/steele-adams-lead-over-james-for-district-12-position-2-seat/">HeraldNet, Aug 4, 2026</a>.</li>
+      <li>Maggie Adams: <a href="https://www.heraldnet.com/2026/08/04/steele-adams-lead-over-james-for-district-12-position-2-seat/">HeraldNet, Aug 4, 2026</a>; Confluence Indivisible candidate interview, September 2026.</li>
     </ol>
   </section>
 
